@@ -24,3 +24,9 @@ Using this [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/overvi
 ### [PyTorch] (https://pytorch.org/)
 
 An open source, Python-First, deep learning platform with a focus on connecting research prototyping to production deployment.
+
+![Chart](https://github.com/SamLingle/Digit_Recognizer/blob/master/Images/15_Epock_Chart.png)
+
+Though the overall test yeilded a result of 97% Accuracy a 15 epoch test is showing an amount of overfitting to the test data that grows after the 12th epoch. Moving forward I will have to tweak the model to correct the issue. 
+
+![Test](https://github.com/SamLingle/Digit_Recognizer/blob/master/Images/15_Epoch_Test.png)
